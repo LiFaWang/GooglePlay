@@ -59,8 +59,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-                <ImageView
-                    android:src="@drawable/ic_download"
+                <FrameLayout
+                   android:id="@+id/fl_progress"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <TextView

@@ -1,4 +1,4 @@
-package tony.com.googleplay.http.protocol;
+package tony.com.googleplay.http;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

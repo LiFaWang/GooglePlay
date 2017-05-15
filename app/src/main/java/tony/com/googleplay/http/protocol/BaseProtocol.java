@@ -7,6 +7,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import tony.com.googleplay.http.HttpHelper;
 import tony.com.googleplay.utils.IOUtils;
 import tony.com.googleplay.utils.StringUtils;
 import tony.com.googleplay.utils.UIUtils;
@@ -55,7 +56,7 @@ public abstract class BaseProtocol<T> {
                 + "?index=" + index + getParams());
         if (httpResult != null) {
             String result = httpResult.getString();// 获取服务器返回的json字符串
-//            System.out.println(result);
+//          System.out.println(result);
             if (!StringUtils.isEmpty(result)) {
                 // 写缓存
                 setCache(result, index);

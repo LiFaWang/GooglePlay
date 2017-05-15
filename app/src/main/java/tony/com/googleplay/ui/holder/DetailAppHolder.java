@@ -15,7 +15,7 @@ import okhttp3.Call;
 import okhttp3.Response;
 import tony.com.googleplay.R;
 import tony.com.googleplay.domain.AppInfo;
-import tony.com.googleplay.http.protocol.HttpHelper;
+import tony.com.googleplay.http.HttpHelper;
 import tony.com.googleplay.utils.UIUtils;
 
 /**

@@ -9,7 +9,8 @@ import android.view.View;
 import tony.com.googleplay.global.BaseApplication;
 
 /**
- * Created by Administrator on 2017/4/2.
+ * Created by
+ * Administrator on 2017/4/2.
  */
 
 public class UIUtils {

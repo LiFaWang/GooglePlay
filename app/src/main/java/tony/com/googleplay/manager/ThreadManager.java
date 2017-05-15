@@ -53,6 +53,13 @@ public class ThreadManager {
             }
              executor.execute(r);
         }
+        //移除任务
+        public void cancle(Runnable r){
+            if (executor!=null){
+                executor.getQueue().remove(r);//从下载队列里移除任务
+            }
+
+        }
 
     }
 }
