@@ -55,7 +55,7 @@ public class RatioLayout extends FrameLayout {
             int imageHeight= (int) (imageWidth/mRatio+0.5f);
             int height=imageHeight+getPaddingTop()+getPaddingBottom();
             //重新定义高度模式
-            MeasureSpec.makeMeasureSpec(height,MeasureSpec.EXACTLY);
+            heightMeasureSpec = MeasureSpec.makeMeasureSpec(height,MeasureSpec.EXACTLY);
 
         }
         //使用最新的高度来测量布局

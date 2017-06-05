@@ -19,6 +19,7 @@ import tony.com.googleplay.http.HttpHelper;
 import tony.com.googleplay.utils.UIUtils;
 
 /**
+ *
  * Created by Administrator on 2017/4/12.
  */
 
