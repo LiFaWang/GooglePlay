@@ -91,8 +91,11 @@ public class HomeDetailActivity extends BaseActivity {
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
 
 
-        actionBar.setDisplayHomeAsUpEnabled(true);
-        actionBar.setHomeButtonEnabled(true); //设置返回键可用
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setHomeButtonEnabled(true); //设置返回键可用
+        }
+
 
     }
 
@@ -106,6 +109,7 @@ public class HomeDetailActivity extends BaseActivity {
 
     private LoadingPage.ResultState onLoad(){
         HomeDetailProtocol protocol=new HomeDetailProtocol(packageName);
+
         mData = protocol.getData(0);
 //        System.out.println("data from protocol=============");
 //        System.out.println(mData);
