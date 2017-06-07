@@ -1,10 +1,11 @@
 # GooglePlay
 # 应用市场
 应用市场
-GooglePlay2 ： https://github.com/caohaoping/GooglePlay2
+GooglePlay2 ： https://github.com/LiFaWang/GooglePlay
 
 ## 1.效果图
-![](gif/googleplay.gif)
+![](gif/20170606141949_00_00_20__00_00_31.gif)
+![](gif/20170606141949_00_00_45__00_01_05.gif)
 
 
 ## 2.项目介绍
